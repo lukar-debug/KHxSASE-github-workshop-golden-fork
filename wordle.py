@@ -12,7 +12,7 @@ import sys
 from collections import Counter
 
 WORD_LENGTH = 5
-MAX_GUESSES = 6
+MAX_GUESSES = 10
 WORD_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "words.txt")
 
 # ANSI colors: green = right spot, yellow = wrong spot, gray = not in word
